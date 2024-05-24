@@ -11,10 +11,13 @@ export type CartItem = Guitar & {
 } 
 //heredar y extender un type
 
-// export type CartItem = Pick<Guitar, 'id' | 'name' | 'price' > & {
-//     quantity: number
-// }
-// export type CartItem = Omit<Guitar, 'id' | 'name' | 'price' > & {
-//     quantity: number
-// }
+/*
+ Utility Types
 
+export type CartItem = Pick<Guitar, 'id' | 'name' | 'price' > & {
+    quantity: number
+}
+export type CartItem = Omit<Guitar, 'id' | 'name' | 'price' > & {
+    quantity: number
+}
+*/

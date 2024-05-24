@@ -8,7 +8,8 @@ export type Guitar = {
 
 export type CartItem = Guitar & {
     quantity: number
-}
+} 
+//heredar y extender un type
 
 // export type CartItem = Pick<Guitar, 'id' | 'name' | 'price' > & {
 //     quantity: number
